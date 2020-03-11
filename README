@@ -1,0 +1,21 @@
+Alexa with EchoDot
+
+There are 4 Steps:
+1- build backend script to handle lambda requests.
+2- build lambda function to be triggered by Alexa.
+3- build the Skill.
+4- add it to your Alexa business private skills.
+
+1-  python bottle script listener.
+example: lex-web.py attached bellow
+
+2- Nodejs triggers the backend script
+example: latency.zip
+
+3- from https://developer.amazon.com/alexa/console
+build the skill and give it access to use lambda function then attach the ARN for lambda with Alexa endpoints.
+
+4- from https://console.aws.amazon.com/a4b
+add it by skill id.
+
+
