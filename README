@@ -7,10 +7,10 @@ There are 4 Steps:
 4- add it to your Alexa business private skills.
 
 1-  python bottle script listener.
-example: lex-web.py attached bellow
+example: flask-app-listener.py attached bellow
 
 2- Nodejs triggers the backend script
-example: latency.zip
+example: lamdba-trigger-function
 
 3- from https://developer.amazon.com/alexa/console
 build the skill and give it access to use lambda function then attach the ARN for lambda with Alexa endpoints.
